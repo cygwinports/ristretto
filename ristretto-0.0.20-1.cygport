@@ -1,0 +1,7 @@
+inherit xfce4
+
+DESCRIPTION="Xfce4 image viewer"
+HOMEPAGE="http://goodies.xfce.org/projects/applications/ristretto"
+SRC_URI="http://goodies.xfce.org/releases/ristretto/${P}.tar.gz"
+
+CYGCONF_ARGS="--enable-xfce-desktop"
