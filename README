@@ -4,22 +4,22 @@ Ristretto is an image-viewer for the Xfce Desktop Environment.
 
 Runtime requirements:
   cygwin-1.5.25-15
-  gdk-pixbuf2-2.12.12-1
-  glib2-2.16.6-1
-  gtk2-x11-2.12.12-1
-  libdbus-glib_1_2-0.76-1
+  libdbus-glib_1_2-0.78-1
   libexif12-0.6.16-2
+  libgdk_pixbuf2.0_0-2.14.6-1
+  libglib2.0_0-2.18.3-1
+  libgtk2.0_0-2.14.6-1
   libintl8-0.17-1
-  libthunar1-0.9.91-1
+  libthunar1_2-0.9.92-1
   libX11_6-1.1.5-1
-  libxfce4util-4.5.91-1
-  libxfcegui4-4.5.91-1
-  libxfconf0_0-4.5.91-1
+  libxfce4util4-4.5.92-1
+  libxfcegui4_4-4.5.92-1
+  xfconf-4.5.92-1
 
 Build requirements:
 (besides corresponding -devel packages)
   autoconf2.5-2.63-1
-  automake1.10-1.10.1-1
+  automake1.10-1.10.1-2
   binutils-20080624-2
   cygport-0.4.3-1
   gawk-3.1.6-1
@@ -28,7 +28,7 @@ Build requirements:
   make-3.81-1
   pkg-config-0.23a-2
   sed-4.1.5-2
-  xfce4-dev-tools-4.5.91-1
+  xfce4-dev-tools-4.5.92-1
 
 Canonical website:
   http://goodies.xfce.org/projects/applications/ristretto
@@ -39,15 +39,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack ristretto-0.0.20-X-src.tar.bz2
+  unpack ristretto-0.0.21-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./ristretto-0.0.20-X.cygport all
+  cygport ./ristretto-0.0.21-X.cygport all
 
 This will create:
-  /usr/src/ristretto-0.0.20-X-src.tar.bz2
-  /usr/src/ristretto-0.0.20-X.tar.bz2
+  /usr/src/ristretto-0.0.21-X-src.tar.bz2
+  /usr/src/ristretto-0.0.21-X.tar.bz2
 
 -------------------------------------------
 
@@ -56,12 +56,12 @@ Files included in the binary package:
   /etc/postinstall/ristretto.sh
   /usr/bin/ristretto.exe
   /usr/share/applications/ristretto.desktop
-  /usr/share/doc/ristretto-0.0.20/AUTHORS
-  /usr/share/doc/ristretto-0.0.20/COPYING
-  /usr/share/doc/ristretto-0.0.20/ChangeLog
-  /usr/share/doc/ristretto-0.0.20/INSTALL
-  /usr/share/doc/ristretto-0.0.20/NEWS
-  /usr/share/doc/ristretto-0.0.20/README
+  /usr/share/doc/ristretto-0.0.21/AUTHORS
+  /usr/share/doc/ristretto-0.0.21/COPYING
+  /usr/share/doc/ristretto-0.0.21/ChangeLog
+  /usr/share/doc/ristretto-0.0.21/INSTALL
+  /usr/share/doc/ristretto-0.0.21/NEWS
+  /usr/share/doc/ristretto-0.0.21/README
   /usr/share/icons/hicolor/16x16/apps/ristretto.png
   /usr/share/icons/hicolor/22x22/apps/ristretto.png
   /usr/share/icons/hicolor/24x24/apps/ristretto.png
@@ -91,6 +91,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.0.21-1 -----
+Version bump.
 
 ----- version 0.0.20-1 -----
 Initial release for Cygwin.
