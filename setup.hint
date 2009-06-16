@@ -1,4 +1,4 @@
-category: Graphics Gnome
-requires: cygwin libglib2.0_0 libgdk_pixbuf2.0_0 libgtk2.0_0 libdbus-glib_1_2 libexif12 libintl8 libthunar-vfs1_2 libX11_6 libxfce4util4 libxfcegui4_4 xfconf
+category: Graphics
+requires: cygwin libgcc1 libglib2.0_0 libgdk_pixbuf2.0_0 libgtk2.0_0 libdbus-glib_1_2 libexif12 libintl8 libthunar-vfs1_2 libX11_6 libxfce4util4 libxfcegui4_4 xfconf
 sdesc: "Xfce4 image viewer"
 ldesc: "Ristretto is an image-viewer for the Xfce Desktop Environment."
