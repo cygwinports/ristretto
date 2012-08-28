@@ -1,0 +1,8 @@
+inherit xfce4
+
+CATEGORY="Graphics Xfce"
+SUMMARY="Xfce4 image viewer"
+DESCRIPTION="Ristretto is an image-viewer for the Xfce Desktop Environment."
+HOMEPAGE="http://goodies.xfce.org/projects/applications/ristretto"
+
+CYGCONF_ARGS="--enable-xfce-desktop"

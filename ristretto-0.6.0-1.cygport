@@ -1,6 +1,0 @@
-inherit xfce4
-
-DESCRIPTION="Xfce4 image viewer"
-HOMEPAGE="http://goodies.xfce.org/projects/applications/ristretto"
-
-CYGCONF_ARGS="--enable-xfce-desktop"
