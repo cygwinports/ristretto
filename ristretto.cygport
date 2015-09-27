@@ -1,7 +1,7 @@
 inherit xfce4
 
 NAME="ristretto"
-VERSION=0.6.3
+VERSION=0.8.0
 RELEASE=1
 CATEGORY="Graphics Xfce"
 SUMMARY="Xfce4 image viewer"
